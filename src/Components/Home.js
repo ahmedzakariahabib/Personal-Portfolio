@@ -51,7 +51,7 @@ const Home = () => {
     <>
       <section className="bigMain1 mt-5 img-fluid pt-5 mt-5 " id="home">
         <Container>
-          <Row className="align-items-center mt-5 pt-5">
+          <Row className="align-items-center  pt-5">
             <Col xs={12} md={6} xl={7}>
               <TrackVisibility>
                 {({ isVisible }) => (
@@ -70,15 +70,15 @@ const Home = () => {
                       <span>{text}</span>
                     </h1>
                     <p className="main3">
-                      Hello EVeryone ,I have 3 years of Experience in Web
+                      Hello Everyone ,I have 3 years of Experience in Web
                       Development
                     </p>
-                    <button
-                      className="my-5 h3 text-white bg-black border-0"
+                    <p
+                      className="my-5 h3 pb-5 text-white"
                       onClick={() => console.log("connect")}
                     >
                       Let's connect <ArrowRightCircle size={25} />
-                    </button>
+                    </p>
                   </div>
                 )}
               </TrackVisibility>

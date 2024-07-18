@@ -29,12 +29,12 @@ const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-      <Row className="sectionSkill mx-auto">
+      <Row className="sectionSkill mx-auto p-5">
         <Col className="partsectionSkil">
           <div className="skill-bx ">
             <h1 className="text-center text-white my-2">Skills</h1>
             <h5 className="text-center text-white my-5">
-              You Can See My Skills Here Yasta
+              You Can See My Skills Here
             </h5>
             <Carousel
               responsive={responsive}

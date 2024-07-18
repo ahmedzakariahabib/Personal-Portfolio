@@ -7,7 +7,7 @@ export default function Connect() {
       <section className="connectsection ">
         <div className="connectparent   ">
           <div className="parentconnect row container mx-auto pt-5 pb-5  ">
-            <div className="col-sm-12 col-md-6 py-5 ">
+            <div className="col-sm-12 col-md-6 py-5 divconnimg ">
               <img
                 className="img-fluid connimg"
                 src={imageconnect}

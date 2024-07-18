@@ -87,7 +87,7 @@ body {
   background-image: url("./assets/footer-bg.png");
   background-size: cover;
   width: 100%;
-  height: 80vh;
+  height: 500px;
 }
 .sectionSkill {
   position: relative;
@@ -266,6 +266,18 @@ body {
 
 .connimg:hover {
   transform: scale(1.03, 1.03);
+}
+
+.divconnimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footersecion {

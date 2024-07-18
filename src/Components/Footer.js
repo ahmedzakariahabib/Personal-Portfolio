@@ -13,12 +13,12 @@ export default function Footer() {
             <div className="col-sm-12 col-md-6">
               <h1>See My Projects At Once </h1>
               <h1>& leave Here Your E-mail</h1>
-              <h1>Address , Yasta</h1>
+              <h1>Address</h1>
             </div>
             <div className="col-sm-12 col-md-6 ">
               <div className="footerbutton p-3">
-                <h4 className="mt-4">Email Address Yasta</h4>
-                <button className="input-button p-4 footerbutton1  h3 ">
+                <h4 className="mt-4 ">Email Address</h4>
+                <button className="input-button p-3 footerbutton1  h3  ">
                   submit
                 </button>
               </div>
